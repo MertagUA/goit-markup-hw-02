@@ -1,7 +1,152 @@
-:rute
-*{
+/*colors*/
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --acent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --contact-footer-color: rgba(255, 255, 255, 0,6);
+    --background-button-color: #F5F4FA;
+}
+/*body*/
+body{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+/*list-style and text-decoration*/
+.list{
+    list-style: none;
+}
+.link{
     text-decoration: none;
 }
-span{
-    color: blue;
+/*header*/
+/*logo*/
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.part-logo{
+    color: var(--acent-color);
+}
+.header-logo{
+    color: #000000;
+}
+.footer-logo{
+    color: var(--primary-white-color);
+    background-color: #000000; /*Щоб було видно*/
+}
+/*navigation*/
+.nav-list a{
+    color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-list a:hover,
+.nav-list a:focus{
+    color: var(--acent-color);
+}
+/*contact */
+.header-contact a{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-contact a:hover,
+.header-contact a:focus{
+    color: var(--acent-color);
+}
+/*hero*/
+.hero-title{
+    color: var(--primary-white-color);
+    background-color: #000000; /*Щоб було видно*/
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-button{
+    color: var(--primary-white-color);
+    background-color: var(--acent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+/*benefits*/
+.benefits-list-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.benefits-list-text{
+    font-size: 14px;
+    line-height: 1.71;
+}
+/*services and team*/
+.title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.team-list-title{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;   
+}
+
+.team-list-text{
+    font-size: 16px;
+    line-height: 1.19;
+}
+/*footer*/
+.address-text{
+    color: var(--primary-white-color);
+    background-color: #000000; /*Щоб було видно*/
+    line-height: 1.71;
+}
+.footer-contact{
+    color: var(--contact-down-color);
+    line-height: 1.71;
+}
+/*Портфоліо*/
+.filter-button{
+    font-family: inherit;
+    color: var(--title-text-color);
+    background-color: var(--background-button-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+.filter-button:hover,
+.filter-button:focus{
+    color: var(--primary-white-color);
+    background-color: var(--acent-color);
+}
+
+.project-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-text{
+    font-size: 16px;
+    line-height: 1.88;
 }
