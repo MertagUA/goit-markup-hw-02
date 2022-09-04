@@ -42,25 +42,28 @@ body{
     background-color: #000000; /*Щоб було видно*/
 }
 /*navigation*/
-.nav-list a{
+.nav-link{
     color: var(--title-text-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.nav-list a:hover,
-.nav-list a:focus{
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--acent-color);
+}
+.current{
     color: var(--acent-color);
 }
 /*contact */
-.header-contact a{
+.contact-link{
     color: var(--primary-text-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.header-contact a:hover,
-.header-contact a:focus{
+.contact-link:hover,
+.contact-link:focus{
     color: var(--acent-color);
 }
 /*hero*/
@@ -119,10 +122,12 @@ body{
     color: var(--primary-white-color);
     background-color: #000000; /*Щоб було видно*/
     line-height: 1.71;
+    font-style: normal;
 }
 .footer-contact{
     color: var(--contact-down-color);
     line-height: 1.71;
+    font-style: normal;
 }
 /*Портфоліо*/
 .filter-button{
